@@ -1,0 +1,15 @@
+.container {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding: 1rem 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Link {
+  text-decoration: none;
+  color: black;
+}

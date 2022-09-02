@@ -1,0 +1,14 @@
+.genres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre {
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem;
+
+  border-radius: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

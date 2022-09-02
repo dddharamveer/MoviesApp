@@ -1,0 +1,60 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.container img {
+  border-radius: 0.5rem;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.MovieBody {
+  padding: 0 0.4rem;
+}
+.MovieBody > .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.MovieBody > .name > p {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+}
+.MovieBody > .name > div > p:first-child {
+  font-size: 0.9em;
+  margin-bottom: 0.2em;
+  font-weight: 700;
+}
+
+.MovieBody > .name > div > p:last-child {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+}
+@media screen and (max-width: 768px) {
+  .container img {
+    border-radius: 0.5rem;
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container img {
+    height: 14rem;
+  }
+}

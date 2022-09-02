@@ -1,0 +1,94 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(186, 186, 186, 0.538);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(186, 186, 186, 0.538);
+
+  width: 100%;
+  height: 100vh;
+}
+.innerContainer {
+  border-radius: 0.5rem;
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem 2rem;
+}
+
+.header {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+label {
+  margin-top: 1rem;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.innerContainer input {
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.show {
+  margin-top: 1rem;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.show > div > p:first-child {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.show > div > p:last-child {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(72, 72, 72);
+  text-transform: uppercase;
+}
+.show img {
+  height: 6em;
+  border-radius: 0.5em;
+}
+.show > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(72, 72, 72);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    position: fixed;
+  }
+  .innerContainer {
+    width: 90%;
+  }
+}

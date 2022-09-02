@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 0.5em;
+}
+
+.buttons:hover {
+  background-color: rgb(87, 87, 87);
+  color: rgb(58, 58, 58);
+}
+.buttons p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
